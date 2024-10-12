@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h5, h6 {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  /* Adjusting filter section for smaller screens */
+  .list-group-item {
+      padding: 15px;
+  }
+}

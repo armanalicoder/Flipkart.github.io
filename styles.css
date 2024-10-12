@@ -1,0 +1,46 @@
+.login-cart-seller{
+  width: 40rem;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.search{
+  /* border: 2px solid black; */
+  width: 28rem;
+}
+.navbar-brand img {
+  /* border: 2px solid black; */
+  height: 40px;
+  width: 160px;
+}
+.category-section img {
+  height: 50px;
+  width: 50px;
+}
+.category-section span {
+  font-size: 14px;
+  display: block;
+}
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
+.footerlink ul li a:hover{
+  text-decoration: underline;
+}
+#loginbtn{
+  /* border: 2px solid black; */
+  height: 42px;
+  width: 108px;
+  text-align: center;
+}
+#loginbtn:hover {
+  background-color:  blue;
+  border-radius: 10px;
+  color: white;
+  
+}
+.footerlink2 a{
+  color: white;
+  text-decoration: none;
+}

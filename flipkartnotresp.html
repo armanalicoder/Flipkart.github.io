@@ -1,0 +1,688 @@
+<!doctype html>
+ <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+        <!-- outer start -->
+        <div class="container-fluid">
+            <!-- top   row   start -->
+            <div class="row sticky-top navbar" style="height: 10vh;">
+                <div class="col-sm-12">
+                    <div class="mx-2 d-flex nav">
+                        <a href="index.html"><img src="img/flipkart.png" alt="logo"/></a>
+                        <form action="https://www.flipkart.com/search">
+                            <input type="text" class="mx-5 form-control" placeholder="Search for Products, Brands and More" name="q" list="datalistOptions" id="exampleDataList" name="search_query">
+                            <!-- <button style="background-color: transparent;" id="resetbtn" type="reset"><i class="fa-solid fa-xmark"></i></button> -->
+                            <datalist id="datalistOptions">
+                              <option value="Smartphone 5G">
+                              <option value="Laptop under 30000">
+                              <option value="Air Conditioning ">
+                              <option value="Oppo A51 Plus 5G">
+                              <option value="Bluetooth Speaker">
+                            </datalist>
+                          </form>
+                          <div class="my-2" id="userlogin">
+                            <div>
+                                <img src="img/userlogin.png" title="user"/>
+                                <span>Login</span>
+                            </div>
+                            
+                          </div>
+                          <div class="mx-5 my-2" id="cart">
+                            <img src="img/cart.png" title="cart"/>
+                            <span>Cart</span>
+                          </div>
+                          <div class="my-2" id="cart">
+                            <img src="img/seller.png" title="seller"/>
+                            <span>Become a Seller</span>
+                          </div>
+                          <div class="mx-5 my-2" id="more">
+                            <img src="img/threedot.png" title="Dropdown with more help links"/>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <!-- top row end  -->
+            <div class="mx-0 my-2 bg-light" style="height: 18vh; width: 100%;" >
+                <div class="col-sm-12">
+                    <div class="mx-2 d-flex">
+                        <div class="mx-4 mt-2">
+                            <div>
+                                <img alt="offers" src="img/top offers.png" style="height: 50px; width: 50px;">
+                            </div>
+                        <span class="mt-4">Offers</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="Grocery" src="img/photo1.png">
+                            </div>
+                        <span>Grocery</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="mobile" src="img/photo2.png">
+                            </div>
+                        <span>Mobile</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="fashion" src="img/fashion.png">
+                            </div>
+                        <span>Fashion</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="electronics" src="img/electronic.png">
+                            </div>
+                        <span>Electronics</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="Furniture" src="img/furniture.png">
+                            </div>
+                        <span>Home & Furniture</span>
+                        </div> 
+                        <div class="mx-4">
+                            <div>
+                                <img alt="Appliances" src="img/appliances.png">
+                            </div>
+                        <span>Appliances</span>
+                        </div> 
+                        <div class="mx-4">
+                            <div>
+                                <img alt="flightbooking" src="img/flight.png">
+                            </div>
+                        <span>Flight Bookings</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="beutytoys" src="img/beutytoy.png">
+                            </div>
+                        <span>Beuty & Toys</span>
+                        </div>
+                        <div class="mx-4">
+                            <div>
+                                <img alt="twowheel" src="img/twowheeler.png">
+                            </div>
+                        <span>Two Wheelers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-0 my-2">
+                <div class="col-sm-12">
+                    <div class="mx-2 d-flex">
+                        <img src="img/banner1.jpg" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                  <!-- best of electronics -->
+                  <div class="mx-2 my-2 bg-light h-100" style="width: 100%;" >
+                        <div class="col-sm-12">
+                            <h3 class="ms-3 fs-5">Best of Electronics</h3>
+                            <div class="d-flex py-2 mt-1" style="overflow: auto">
+                                <!-- card 1 start  -->
+                                <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="Appliances" src="img/shaver.png">
+                                    </div>
+                                    <div class="mx-4"><span class="text-center">Best of Shavers</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹1,299</b></span></div>
+                                </div>
+                                <!-- card 1 end  -->
+                                 <!-- card 2 start -->
+                                <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="watches" src="img/watch.png">
+                                    </div>
+                                    <div class="mx-5"><span class="ms-3 text-center">Best of Watches</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹999</b></span></div>
+                                </div>
+                                <!-- card 2 end  -->
+                                <!-- card 3 start  -->
+                                <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="smartwatch" src="img/smartwatch.png">
+                                    </div>
+                                    <div class="mx-4"><span class="ms-4 text-center">Best Smartwatches</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹1,599</b></span></div>
+                                </div>
+                                <!-- card 3 end  -->
+                                 <!-- card 4 start  -->
+                                <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="airpods" src="img/airpod.png">
+                                    </div>
+                                    <div class="mx-5"><span class="text-center">Best Airpods</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹999</b></span></div>
+                                </div>
+                                <!-- card 4 end  -->
+                                 <!-- card 5 start  -->
+                                 <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-5">
+                                        <img alt="projector" src="img/projector.png">
+                                    </div>
+                                    <div class="mx-5"><span class="ms-5 text-center">Projectors</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹5,999</b></span></div>
+                                </div>
+                                <!-- card 5 end  -->
+                                 <!-- card  6 start  -->
+                                 <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="monitor" src="img/monitor.png">
+                                    </div>
+                                    <div class="mx-5 mt-5 "><span class="ms-5 text-center">Monitors</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹12,299</b></span></div>
+                                </div>
+                                <!-- card 6 end  -->
+                                 <!-- card 7 start  -->
+                                 <div class="mx-2 border rounded">
+                                    <div class="mx-5 mt-5">
+                                        <img alt="printer" src="img/printer.png">
+                                    </div>
+                                    <div class="mx-4 mt-5"><span class="ms-5 text-center">Best of Printers</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹3,999</b></span></div>
+                                </div>
+                                <!-- card 7 end  -->
+                                 <!-- card 8 start  -->
+                                 <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="monitors" src="img/benqmonitor.png">
+                                    </div>
+                                    <div class="mx-5 mt-5 "><span class="ms-4 text-center">benQ Monitors</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹11,599</b></span></div>
+                                </div>
+                                <!-- card 8 end  -->
+                                 <!-- card 9 start  -->
+                                 <div class="mx-2 border rounded">
+                                    <div class="mx-5 my-4">
+                                        <img alt="monitor" src="img/asusmonitor.png">
+                                    </div>
+                                    <div class="mx-4 mt-5"><span class="ms-5 text-center">ASUS Monitors</span></div>
+                                    <div class="mx-4 text-center"><span><b>From ₹14,999</b></span></div>
+                                </div>
+                                <!-- card 9 end  -->
+                        </div>
+                    </div>
+             </div>
+              <!-- Beuty toys section  -->
+             <div class="mx-2 my-2 bg-light h-100" style="width: 100%;" >
+                <div class="col-sm-12">
+                    <h3 class="ms-3 fs-5">Beauty, Food, Toys & more</h3>
+                    <div class="d-flex py-2 mt-1" style="overflow: auto">
+                        <!-- card 1 start  -->
+                        <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="pen" src="img/topsellingstation.png">
+                            </div>
+                            <div class="mx-5"><span class="ms-2 text-center">Top Selling Station</span></div>
+                            <div class="mx-4 text-center"><span><b>From ₹49</b></span></div>
+                        </div>
+                        <!-- card 1 end  -->
+                         <!-- card 2 start -->
+                        <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="cycle" src="img/cycle.png">
+                            </div>
+                            <div class="mx-5 mt-5"><span class="ms-5 mt-3 text-center">Electric Cycle</span></div>
+                            <div class="mx-4 text-center"><span><b>Up to 40% Off</b></span></div>
+                        </div>
+                        <!-- card 2 end  -->
+                        <!-- card 3 start  -->
+                        <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="toys" src="img/toys.png">
+                            </div>
+                            <div class="mx-5"><span class="ms-5 text-center">Soft Toys</span></div>
+                            <div class="mx-4 text-center"><span><b>Upto 70% Off</b></span></div>
+                        </div>
+                        <!-- card 3 end  -->
+                         <!-- card 4 start  -->
+                        <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="powder" src="img/cofeepowder.png">
+                            </div>
+                            <div class="mx-4"><span class="ms-3 text-center">Coffee Powder</span></div>
+                            <div class="mx-4 text-center"><span><b>Upto 80% Off</b></span></div>
+                        </div>
+                        <!-- card 4 end  -->
+                         <!-- card 5 start  -->
+                         <div class="mx-2 border rounded">
+                            <div class="mx-5 my-5">
+                                <img alt="mic" src="img/mic.png">
+                            </div>
+                            <div class="mx-5"><span class="ms-5 text-center">Microphones</span></div>
+                            <div class="mx-4 text-center"><span><b>Upto 70% Off</b></span></div>
+                        </div>
+                        <!-- card 5 end  -->
+                         <!-- card  6 start  -->
+                         <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="monitor" src="img/monitor.png">
+                            </div>
+                            <div class="mx-5 mt-5 "><span class="ms-5 text-center">Monitors</span></div>
+                            <div class="mx-4 text-center"><span><b>From ₹12,299</b></span></div>
+                        </div>
+                        <!-- card 6 end  -->
+                         <!-- card 7 start  -->
+                         <div class="mx-2 border rounded">
+                            <div class="mx-5 mt-5">
+                                <img alt="printer" src="img/printer.png">
+                            </div>
+                            <div class="mx-4 mt-5"><span class="ms-5 text-center">Best of Printers</span></div>
+                            <div class="mx-4 text-center"><span><b>From ₹3,999</b></span></div>
+                        </div>
+                        <!-- card 7 end  -->
+                         <!-- card 8 start  -->
+                         <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="monitors" src="img/benqmonitor.png">
+                            </div>
+                            <div class="mx-5 mt-5 "><span class="ms-4 text-center">benQ Monitors</span></div>
+                            <div class="mx-4 text-center"><span><b>From ₹11,599</b></span></div>
+                        </div>
+                        <!-- card 8 end  -->
+                         <!-- card 9 start  -->
+                         <div class="mx-2 border rounded">
+                            <div class="mx-5 my-4">
+                                <img alt="monitor" src="img/asusmonitor.png">
+                            </div>
+                            <div class="mx-4 mt-5"><span class="ms-5 text-center">ASUS Monitors</span></div>
+                            <div class="mx-4 text-center"><span><b>From ₹14,999</b></span></div>
+                        </div>
+                        <!-- card 9 end  -->
+                </div>
+            </div>
+        </div>
+        <!-- Sports healthcare & more sections -->
+        <div class="mx-2 my-2 bg-light h-100" style="width: 100%;" >
+            <div class="col-sm-12">
+                <h3 class="ms-3 fs-5">Sports, Healthcare & more</h3>
+                <div class="d-flex py-2 mt-1" style="overflow: auto">
+                    <!-- card 1 start  -->
+                    <div class="mx-2 border rounded">
+                        <div class="mx-5 my-4">
+                            <img alt="instruments" src="img/instruments.png">
+                        </div>
+                        <div class="mx-5 mt-5"><span class="ms-3 text-center">String Instruments</span></div>
+                        <div class="mx-4 text-center"><span><b>Up to 70% Off</b></span></div>
+                    </div>
+                    <!-- card 1 end  -->
+                     <!-- card 2 start -->
+                    <div class="mx-2 border rounded">
+                        <div class="mx-5 my-4">
+                            <img alt="trademill" src="img/trademill.png">
+                        </div>
+                        <div class="mx-3 mt-5"><span class="ms-5 mt-3 text-center">Trademill Exercise...</span></div>
+                        <div class="mx-4 text-center"><span><b>Up to 70% Off</b></span></div>
+                    </div>
+                    <!-- card 2 end  -->
+                    <!-- card 3 start  -->
+                    <div class="mx-2 border rounded">
+                        <div class="mx-5 mt-5 my-5 ">
+                            <img alt="piano" src="img/musicalkeyboard.png">
+                        </div>
+                        <div class="mx-4 mt-5"><span class="ms-5 mt-4 text-center">Musical Keyboard</span></div>
+                        <div class="mx-4 text-center"><span><b>Upto 70% Off</b></span></div>
+                    </div>
+                    <!-- card 3 end  -->
+                     <!-- card 4 start  -->
+                    <div class="mx-2 border rounded">
+                        <div class="mx-5 mt-5">
+                            <img alt="mat" src="img/yogamat.png">
+                        </div>
+                        <div class="mx-5 mt-5"><span class="ms-5 mt-4 text-center">Yoga Mat</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹159</b></span></div>
+                    </div>
+                    <!-- card 4 end  -->
+                     <!-- card 5 start  -->
+                     <div class="mx-2 border rounded">
+                        <div class="mx-5 my-5">
+                            <img alt="puzzlecube" src="img/puzzlecube.png">
+                        </div>
+                        <div class="mx-4"><span class="ms-5 text-center">Puzzles & Cubes</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹79</b></span></div>
+                    </div>
+                    <!-- card 5 end  -->
+                     <!-- card  6 start  -->
+                     <div class="mx-2 border rounded">
+                        <div class="mx-5 my-4">
+                            <img alt="monitor" src="img/monitor.png">
+                        </div>
+                        <div class="mx-5 mt-5 "><span class="ms-5 text-center">Monitors</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹12,299</b></span></div>
+                    </div>
+                    <!-- card 6 end  -->
+                     <!-- card 7 start  -->
+                     <div class="mx-2 border rounded">
+                        <div class="mx-5 mt-5">
+                            <img alt="printer" src="img/printer.png">
+                        </div>
+                        <div class="mx-4 mt-5"><span class="ms-5 text-center">Best of Printers</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹3,999</b></span></div>
+                    </div>
+                    <!-- card 7 end  -->
+                     <!-- card 8 start  -->
+                     <div class="mx-2 border rounded">
+                        <div class="mx-5 my-4">
+                            <img alt="monitors" src="img/benqmonitor.png">
+                        </div>
+                        <div class="mx-5 mt-5 "><span class="ms-4 text-center">benQ Monitors</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹11,599</b></span></div>
+                    </div>
+                    <!-- card 8 end  -->
+                     <!-- card 9 start  -->
+                     <div class="mx-2 border rounded">
+                        <div class="mx-5 my-4">
+                            <img alt="monitor" src="img/asusmonitor.png">
+                        </div>
+                        <div class="mx-4 mt-5"><span class="ms-5 text-center">ASUS Monitors</span></div>
+                        <div class="mx-4 text-center"><span><b>From ₹14,999</b></span></div>
+                    </div>
+                    <!-- card 9 end  -->
+            </div>
+        </div>
+    </div>
+    <!-- 1 row 3 Column Section  -->
+    <div class="d-flex mx-2 my-2 bg-light h-100" style="width: 100%;" >
+        <div class="col-sm-4 bg-light h-100 section-7">
+            <h3 class="mt-3 ms-3 ">Best Gadget & Appliances</h3>
+            <div class="card ms-4 me-5 mb-3">
+                <img src="img/Mobiles.png"/>
+                <span class="ms-2">Mobiles</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                </div>
+            </div>
+            <div class="card mb-3 ">
+                <img src="img/laptop.png"/>
+                <span class="ms-2">Laptops</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                </div>
+            </div>
+            <div class="card ms-4 mb-3 ">
+                <img src="img/dryer.png"/>
+                <span class="ms-2">Hair Dryer</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                </div>
+            </div>
+            <div class="card ms-5 mb-3 ">
+                <img src="img/headset.png"/>
+                <span class="ms-2">Headset</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                </div>
+            </div>
+        </div>
+        <!-- Section 2 start  -->
+        <div class="d-flex col-sm-4" style="background-color: #666;">
+            <div class="col-sm-4 ms-2 bg-light h-100 section-7 w-100">
+                <h3 class="mt-3 ms-3 ">Gift for All Occasions</h3>
+                <div class="card ms-4 me-5 mb-3">
+                    <img src="img/cycles.png"/>
+                    <span class="ms-2">Cycles</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                    </div>
+                </div>
+                <div class="card mb-3 ">
+                    <img src="img/fitness.png"/>
+                    <span class="ms-2">Fitness Accessories</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                    </div>
+                </div>
+                <div class="card ms-4 mb-3 ">
+                    <img src="img/makeup.png"/>
+                    <span class="ms-2">Makeup Kits & Combo</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                    </div>
+                </div>
+                <div class="card ms-5 mb-3 ">
+                    <img src="img/headphone.png"/>
+                    <span class="ms-2">Headphone</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 3 start -->
+        <div class="col-sm-4" style="background-color: #666;">
+            <div class="col-sm-4 ms-2 bg-light h-100 section-7 w-100">
+                <h3 class="mt-3 ms-3 ">Fashion's Top Deals</h3>
+                <div class="card ms-4 me-5 mb-3">
+                    <img src="img/mens kurta.png"/>
+                    <span class="ms-2">Men's Kurta</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Hand-picked</span>
+                    </div>
+                </div>
+                <div class="card mb-3 ">
+                    <img src="img/mens jacket.png"/>
+                    <span class="ms-2">Men's Jackets</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Special Offer</span>
+                    </div>
+                </div>
+                <div class="card ms-4 mb-3 ">
+                    <img src="img/shoes.png"/>
+                    <span class="ms-2">Men's Casual Shoes</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 70% Off</span>
+                    </div>
+                </div>
+                <div class="card ms-5 mb-3 ">
+                    <img src="img/chains.png"/>
+                    <span class="ms-2">Chains</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 70% Off</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- next 1 row 3 Column -->
+    <div class="d-flex mx-2 my-2 bg-light h-100" style="width: 100%;" >
+        <div class="col-sm-4 bg-light h-100 section-7">
+            <h3 class="mt-3 ms-3 ">Festive Home Decor</h3>
+            <div class="card ms-4 me-5 mb-3">
+                <img src="img/waterbottle.png"/>
+                <span class="ms-2">Water Bottles</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Special Offer</span>
+                </div>
+            </div>
+            <div class="card mb-3 ">
+                <img src="img/chopperslicer.png"/>
+                <span class="ms-2">Chopper & Slicers</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Special Offer</span>
+                </div>
+            </div>
+            <div class="card ms-4 mb-3 ">
+                <img src="img/cooker.png"/>
+                <span class="ms-2">Pressure Cookers</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Special Offer</span>
+                </div>
+            </div>
+            <div class="card ms-5 mb-3 ">
+                <img src="img/gas.png"/>
+                <span class="ms-2">Gas Stoves</span>
+                <div>
+                    <span class="ms-2 text-success fw-bold">Special Offer</span>
+                </div>
+            </div>
+        </div>
+        <!-- Section 2 start  -->
+        <div class="d-flex col-sm-4" style="background-color: #666;">
+            <div class="col-sm-4 ms-2 bg-light h-100 section-7 w-100">
+                <h3 class="mt-3 ms-3 ">Big Billion Days' Top Picks</h3>
+                <div class="card ms-4 me-5 mb-3">
+                    <img src="img/Spray.png"/>
+                    <span class="ms-2">Deadorant Spray</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 50% Off</span>
+                    </div>
+                </div>
+                <div class="card mb-3 ">
+                    <img src="img/schoolbag.png"/>
+                    <span class="ms-2">School Bags</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Special Offer</span>
+                    </div>
+                </div>
+                <div class="card ms-4 mb-3 ">
+                    <img src="img/writingpads.png"/>
+                    <span class="ms-2">LCD Writing Pads</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Explore Now</span>
+                    </div>
+                </div>
+                <div class="card ms-5 mb-3 ">
+                    <img src="img/smartwatch2.png"/>
+                    <span class="ms-2">Smart Watches</span>
+                    <div>
+                        <span class="ms-2 text-success fw-bold">Min. 40% Off</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 3 start -->
+        <div class="col-sm-4" style="background-color: #666;">
+            <div class="col-sm-4 ms-2 h-100 section-7 w-100">
+               <img style="width: 100%;" src="img/flipkartad.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- footer start  -->
+    <div class="row text-light" style="background-color: #181818;">
+        <div class="col-sm-2 ms-0 p-5">
+            <h5 class="ms-4" style="color: #878787;">ABOUT</h5>
+            <div>
+                <ul type = "none">
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Stories</li>
+                    <li>Press</li>
+                   </ul>
+            </div>
+        </div>
+        <div class="col-sm-2 p-5">
+            <h5>GROUP COMPANIES</h5>
+            <ul type = "none">
+                <li><a class="nav-link" href="#">Myntra</a></li>
+                <li><a class="nav-link" href="#">Cleartrip</a></li>
+                <li><a class="nav-link" href="#">Shopsy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 p-5">
+            <h5>HELP</h5>
+            <ul type = "none">
+                <li><a class="nav-link" href="#">Payments</A></li>
+                <li><a class="nav-link" href="#">Shipping</a></li>
+                <li><a class="nav-link" href="#">Cancellation & return</a></li>
+                <li><a class="nav-link" href="#">FAQ</a></li>
+                <li><a class="nav-link" href="#">Report Infringment</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 p-5">
+            <h5>CONSUMER POLICY</h5>
+            <ul type = "none">
+                <li><a class="nav-link" href="#">Cancellation & Return</A></li>
+                <li><a class="nav-link" href="#">Terms of Use</a></li>
+                <li><a class="nav-link" href="#">Security</a></li>
+                <li><a class="nav-link" href="#">Privacy</a></li>
+                <li><a class="nav-link" href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 p-5">
+            <h5>Mail Us: </h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, tenetur provident iure eius deleniti sit consequatur</p>
+        </div>
+        <div class="col-sm-2 p-5">
+            <h5>Office Address: </h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, tenetur provident iure eius deleniti sit consequatur</p>
+        </div>
+        <hr>
+        <div class="col-sm-2">
+            <div class="ms-5">
+                <img src="img/becomeseller.png"/>
+                <span>Become a Seller</span>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="ms-5">
+                <img src="img/advertiser.png"/>
+                <span>Advertise</span>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="ms-5">
+                <img src="img/giftcard.png"/>
+                <span>Gift Cards</span>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="ms-5">
+                <img src="img/helpcenter.png"/>
+                <span>Help Center</span>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ms-5">
+                <span>&copy; 2007-2024<span> <a href="#">Flipkart.com</a></span></span>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="ms-5">
+                <img class="ms-5" style="margin-left: 4rem;" src="img/footerpayment.png"/>
+            </div>
+        </div>
+
+      </div>
+    <!-- footer end  -->
+</div>
+        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

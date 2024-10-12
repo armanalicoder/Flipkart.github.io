@@ -1,0 +1,31 @@
+body{
+    background-color: #FFFFFF;
+}
+.nav input{
+    width: 35rem;
+}
+.navbar{
+    background-color: white;
+}
+#featured .card{
+    height: 18rem;
+    width: 15rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+.section-7{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+/* .section-7 div{
+    height: 15rem;
+    width: 11rem;
+    border: 2px solid black;
+    margin-left: 2rem;
+    margin-top: 2rem;
+} */
+.section-7 div img {
+    height:10rem;
+    width: 10rem;
+}
